@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+}
+
+h1 {
+  font-family: "MyFont", sans-serif;
+  color: #212429;
+  font-size: 32px;
+  padding: 16px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #212429;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.menu-icon {
+  flex-grow: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.navbar-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 72px;
+  padding: 16px;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.navbar a {
+  font-size: 16px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #212429;
+}
+
+.products,
+.products2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 60px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+img {
+  border-radius: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #212429;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+footer svg {
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+@media (max-width: 920px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-icons {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer a {
+    margin: 10px 0;
+  }
+}
