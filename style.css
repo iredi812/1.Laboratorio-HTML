@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "MyFont";
   src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
@@ -23,12 +29,8 @@ h1 {
   padding: 16px;
 }
 
-main {
-  margin-top: 100px;
-}
-
 .navbar-container {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,7 +39,8 @@ main {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #212429;
-  padding: 16px;
+  background-color: #ffffff;
+  padding: 8px;
   font-size: 16px;
 }
 
@@ -90,6 +93,14 @@ img {
   border-radius: 16px;
 }
 
+footer div {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -109,9 +120,9 @@ footer a {
 }
 
 footer svg {
-  background: #ffffff;
-  border-radius: 50%;
-  padding: 12px;
+  height: 30px;
+  width: 30px;
+  margin: 8px;
 }
 
 @media (max-width: 920px) {
@@ -131,9 +142,6 @@ footer svg {
 
   footer {
     flex-direction: column;
-  }
-
-  footer a {
-    margin: 10px 0;
+    gap: 20px;
   }
 }
