@@ -1,4 +1,4 @@
-Laboratorio HTML
+Laboratorio Módulo 1 - HTML
 
 Introducción Vamos a implementar una página web de una tienda de ropa.
 
