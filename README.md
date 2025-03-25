@@ -1,45 +1,35 @@
-Laboratorio de Git
+Laboratorio HTML
 
-Este laboratorio tiene como objetivo que practiques los comandos básicos de Git. Para ello, deberás crear un repositorio en local y subirlo a GitHub. Luego, deberás crear una rama, hacer un merge y resolver los conflictos que se presenten si fuera el caso.
+Introducción Vamos a implementar una página web de una tienda de ropa.
 
-Entrega
-La entrega del laboratorio se realizará pegando abajo de está página el enlace correspondiente a tu repositorio de GitHub.
+La práctica es un ejercicio de maquetación sin ninguna navegación aunque si te animas puedes añadir efectos tipo :hover a los enlaces y las tarjetas.
 
-IMPORTANTE: El repositorio debe contener un archivo README.md con la descripción de lo qué se ha realizado en el laboratorio, si quieres puedes añadir capturas de pantalla para explicar cómo has realizado el laboratorio.
+Tipografía
 
-Requisitos
-Tener instalado Git en tu computadora.
-Tener una cuenta en GitHub.
-Objetivos
-1. Crear un repositorio en local
+La fuente utilizada es Montserrat de Google fonts en sus variantes Regular y Bold. https://fonts.google.com/specimen/Montserrat?query=monts
 
-Abre tu terminal y navega hasta el directorio donde deseas crear el repositorio.
-Crea una carpeta con el nombre del repositorio.
-Ingresa a la carpeta que acabas de crear.
-Inicializa el repositorio de Git.
-2. Subir el repositorio a GitHub
+Tamaños de fuente
 
-Crea un nuevo repositorio en GitHub.
-Copia el URL del repositorio que acabas de crear en GitHub
-Conecta tu repositorio local con el repositorio en GitHub.
-Verifica que la conexión se haya establecido correctamente.
-3. Hacer un commit y un push
+Barra de navegación y footer: 16px Título: 32px Tarjetas: 14px
 
-Crea un archivo en la carpeta del repositorio.
-Añade el archivo al staging.
-Crea un commit con un mensaje descriptivo.
-Sube los cambios al repositorio en GitHub.
-4. Crear una rama
+Medidas y espaciados base:
 
-Crea una rama nueva llamada "development".
-Cambia a la nueva rama.
-Realiza algunos cambios en el archivo que creaste.
-Añade y haz un commit con los cambios en la rama "development".
-Sube los cambios a Github.
-5. Hacer un merge
+Ancho de pantalla en diseño: 1280px Márgenes y paddings base: 8px, 16px, 32px, ...
 
-Vuelve a la rama "main".
-Haz un merge de la rama "development" a la rama "main".
-Si no hay conflictos, los cambios realizados en la rama "development" se incorporarán a la rama "main".
-Hax un push de los cambios al repositorio en GitHub.
-La rama principal de nuestro repositorio puede ser "main" o "master" según la hayamos nombrado.
+Colores
+
+Blanco: .... #ffffff Negro: .... #212429
+
+Apartado obligatorio
+
+Maquetar el contenido principal de la página ( Nuevas colecciones ) haciendo que el contenido se adapte de manera responsiva si el tamaño de pantalla cambia.
+
+Apartado opcional
+
+Implementar la pantalla completa con la barra de navegación y el footer.
+
+La barra de navegación tiene que mantenerse fija al hacer scroll. La hoja de estilos tiene que ser definida en un documento .css para ser importada en el documento html.
+
+Apartado extra
+
+Implementa para la barra de navegación y el pie de página un diseño que se adapte a la pantalla, nosotros hemos calculado este diseño para un ancho máximo de 920px.
